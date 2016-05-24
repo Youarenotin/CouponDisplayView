@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.youarenotin.coupondisplayView.MainActivity"
+    android:orientation="vertical"
+    android:gravity="center|top">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"/>
+
+    <include
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        layout="@layout/ll_conponview"
+            ></include>
+
+</LinearLayout>
